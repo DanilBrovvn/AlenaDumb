@@ -31,9 +31,9 @@ const About = () => {
             
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg"
+                src="/Аватарки, фото для всего/3L0A5317_1 (2).jpg"
                 alt="Алена Думбадзе"
-                className="w-full h-96 object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                className="w-full h-96 object-cover object-top grayscale hover:grayscale-0 transition-all duration-500"
               />
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-white"></div>
             </div>

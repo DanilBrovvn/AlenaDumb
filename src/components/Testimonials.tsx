@@ -4,25 +4,25 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg',
+      image: '/Свадьба/A&M612.jpg',
       text: 'Алена провела нашу свадьбу на высшем уровне! Все гости были в восторге.',
       author: 'Анна и Михаил'
     },
     {
       id: 2,
-      image: 'https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg',
+      image: '/Аватарки, фото для всего/IMG_20230104_005252.jpg',
       text: 'Корпоратив прошел великолепно. Алена смогла объединить всю команду.',
       author: 'IT-компания "Инновации"'
     },
     {
       id: 3,
-      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg',
+      image: '/Аватарки, фото для всего/SH409077_resized.jpg',
       text: 'Курс "Говорить не страшно" изменил мою жизнь. Теперь выступаю с удовольствием!',
       author: 'Елена Петрова'
     },
     {
       id: 4,
-      image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg',
+      image: '/Тимбилдинг/04.06.2023-1175.jpg',
       text: 'Профессионализм и харизма Алены покорили всех участников тимбилдинга.',
       author: 'Банк "Развитие"'
     }

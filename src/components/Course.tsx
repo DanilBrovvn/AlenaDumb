@@ -53,7 +53,7 @@ const Course = () => {
             <div className="space-y-6">
               <div className="relative">
                 <img
-                  src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg"
+                  src="/Аватарки, фото для всего/3L0A5288_1.jpg"
                   alt="Курс Говорить не страшно"
                   className="w-full h-64 object-cover grayscale"
                 />
@@ -61,12 +61,13 @@ const Course = () => {
               </div>
               
               <div className="relative">
-                <img
-                  src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg"
-                  alt="Обучение ораторскому мастерству"
+                <video
+                  src="/Курс Говорить не страшно/Говоритьнестрашно.MOV"
+                  poster="/Аватарки, фото для всего/SH405397_resized (1).jpg"
                   className="w-full h-48 object-cover grayscale"
+                  controls
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center">
+                <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center pointer-events-none">
                   <div className="w-12 h-12 bg-white bg-opacity-90 rounded-full flex items-center justify-center">
                     <svg className="w-4 h-4 text-black ml-0.5" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M8 5v14l11-7z"/>

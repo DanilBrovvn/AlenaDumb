@@ -5,22 +5,22 @@ const Services = () => {
     {
       title: 'СВАДЬБЫ',
       description: 'Создаю атмосферу любви и радости, делаю каждый момент незабываемым',
-      image: 'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg'
+      image: '/Свадьба/A&A0872.JPG'
     },
     {
       title: 'КОРПОРАТИВЫ',
       description: 'Профессиональное ведение корпоративных мероприятий любого масштаба',
-      image: 'https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg'
+      image: '/Аватарки, фото для всего/SH409077_resized.jpg'
     },
     {
       title: 'ТИМБИЛДИНГ',
       description: 'Сплочение команды через интерактивные игры и активности',
-      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg'
+      image: '/Тимбилдинг/IMG_4949.jpeg'
     },
     {
       title: 'ОБУЧЕНИЕ',
       description: 'Курсы по ораторскому мастерству и публичным выступлениям',
-      image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg'
+      image: '/Аватарки, фото для всего/3L0A5183.jpg'
     }
   ];
 
@@ -45,7 +45,7 @@ const Services = () => {
                   <img
                     src={service.image}
                     alt={service.title}
-                    className="w-full h-64 object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                    className="w-full h-64 object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-500"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-60 group-hover:bg-opacity-40 transition-all duration-300"></div>
                   <div className="absolute bottom-4 left-4 text-white">

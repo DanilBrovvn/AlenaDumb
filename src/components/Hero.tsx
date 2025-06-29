@@ -5,9 +5,9 @@ const Hero = () => {
     <section className="relative h-screen flex items-center justify-center overflow-hidden bg-black">
       <div className="absolute inset-0">
         <img
-          src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg"
+          src="/Аватарки, фото для всего/W6MBpDdaEr01U4ipV1OXzQ.jpg"
           alt="Алена Думбадзе"
-          className="w-full h-full object-cover opacity-20"
+          className="w-full h-full object-cover object-top opacity-20"
         />
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
       </div>

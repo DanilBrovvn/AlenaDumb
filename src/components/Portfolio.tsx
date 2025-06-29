@@ -15,38 +15,56 @@ const Portfolio = () => {
     {
       id: 1,
       category: 'wedding',
-      image: 'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg',
+      image: '/Свадьба/DSC_2301 (1).JPG',
       title: 'Свадьба Анны и Михаила'
     },
     {
       id: 2,
       category: 'corporate',
-      image: 'https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg',
+      image: '/Аватарки, фото для всего/354A9460-3_resized.jpg',
       title: 'Корпоратив IT-компании'
     },
     {
       id: 3,
       category: 'teambuilding',
-      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg',
+      image: '/Тимбилдинг/4T6A0673.jpg',
       title: 'Тимбилдинг для банка'
     },
     {
       id: 4,
       category: 'education',
-      image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg',
+      image: '/Аватарки, фото для всего/3L0A5288_1.jpg',
       title: 'Мастер-класс по ораторскому мастерству'
     },
     {
       id: 5,
       category: 'wedding',
-      image: 'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg',
+      image: '/Свадьба/IMG_1794.jpg',
       title: 'Выездная церемония'
     },
     {
       id: 6,
       category: 'corporate',
-      image: 'https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg',
+      image: '/Аватарки, фото для всего/BJ2A2320.jpg',
       title: 'Юбилей компании'
+    },
+    {
+      id: 7,
+      category: 'wedding',
+      image: '/Свадьба/1986.jpg',
+      title: 'Свадебный банкет'
+    },
+    {
+      id: 8,
+      category: 'teambuilding',
+      image: '/Тимбилдинг/04.06.2023-1520.jpg',
+      title: 'Командные игры'
+    },
+    {
+      id: 9,
+      category: 'teambuilding',
+      image: '/Тимбилдинг/04.06.2023-1745.jpg',
+      title: 'Активности на природе'
     }
   ];
 
@@ -91,7 +109,7 @@ const Portfolio = () => {
                   <img
                     src={item.image}
                     alt={item.title}
-                    className="w-full h-64 object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                    className="w-full h-64 object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-500"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-60 group-hover:bg-opacity-40 transition-all duration-300 flex items-center justify-center">
                     <div className="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
